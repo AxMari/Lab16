@@ -1,0 +1,71 @@
+body {
+	font-family: tahoma;
+	background-color: #e6ffe6;
+}
+
+
+header {
+	font-size: 300%;
+	text-align: center;
+	font-weight: bold;
+}
+
+ul{
+	text-align: center;
+	margin: auto
+	display: inline-block;
+	padding: 2%;
+
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+
+}
+
+.center {
+	text-align: center;
+}
+
+#zoo {
+	font-size: 900%;
+}
+
+img {
+	width: 40%;
+	margin: auto 29%;
+	box-shadow: 10px 30px 40px grey;
+}
+
+h6{
+	margin-top: 75px;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+a:link {
+	color:black;
+
+}
+
+a:visited {
+	color: #9966ff;
+}
+
+a:hover {
+	color: #006600;
+}
+
+a:active {
+	color: white;
+}
+
+
+
+
+

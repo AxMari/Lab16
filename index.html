@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animals</title>
+	<script data-require="angular.js@*" data-semver="1.3.16" src="https://code.angularjs.org/1.3.16/angular.js"></script>
+    <script data-require="angular-route@*" data-semver="1.3.16" src="https://code.angularjs.org/1.3.16/angular-route.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="controller.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body ng-app="myModule">
+<header>HELLO!</header>
+
+
+	<div id="nav">
+	
+		<ul>
+			<li><a href="#/">Home</a> |</li> 
+			<li><a href="#/cat">Cat</a> |</li> 
+			<li><a href="#/dog">Dog</a> |</li> 
+			<li><a href="#/seahorse">Seahorse</a> |</li>
+			<li><a href="#/birb">Birb</a> |</li> 
+			<li><a href="#/birb2">More Birb</a></li>
+		</ul>
+	</div>
+
+	<ng-view =""></ng-view>
+
+
+<a class="center" href="http://www.grandcircus.co"><h6>Grand Circus</h6></a>
+
+</body>
+</html>
