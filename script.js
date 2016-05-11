@@ -32,14 +32,10 @@ angular.module('myModule', ['ngRoute'])
 	   	 			templateUrl: 'partials/birb2.html'
 	   	 		})
 
-	   	 		.when('/fail',
+	   	 		.when('/error',
 	   	 		{
 	   	 			controller: 'myController',
 	   	 			templateUrl: 'partials/fail.html'
 	   	 		})
-	   	 		.otherwise({ redirectTo: '/fail'});
-
+	   	 		.otherwise({ redirectTo: '/error'});
 	   });	
-
-
-
