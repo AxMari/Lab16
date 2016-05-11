@@ -1,5 +1,2 @@
 angular.module('myModule');
-	   .controller('myController', function($scope){
-
-
-	   });
+	   .controller('myController', function($scope){});
